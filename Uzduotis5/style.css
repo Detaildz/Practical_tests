@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+.main {
+  width: 796px;
+  margin: 5rem;
+}
+
+.background {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem;
+}
+.header {
+  background: linear-gradient(180deg, #afbacb 0%, rgba(175, 186, 203, 0) 100%),
+    #fff;
+  height: 62px;
+  margin-top: -5px;
+}
+
+h1 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 32px */
+  letter-spacing: 0.42px;
+  color: #373636;
+  position: relative;
+  left: 133px;
+  top: 1rem;
+}
+
+.tekstas {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: 0.42px;
+  margin: 30px 132px 133px;
+}
+p {
+  margin-bottom: 2rem;
+}

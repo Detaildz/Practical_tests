@@ -1,0 +1,89 @@
+html {
+  background-color: #131417;
+  font-family: inter;
+  box-sizing: border-box;
+}
+
+.middle_bg {
+  width: 675px;
+  height: 355px;
+  background-color: #222225;
+  margin: 7rem auto;
+  position: relative;
+  border-radius: 12px;
+}
+
+.text {
+  padding: 65px 72px 66px 72px;
+  position: relative;
+  object-position: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-size: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.42px;
+  color: white;
+  padding-bottom: 17px;
+}
+p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: white;
+  padding-bottom: 17px;
+}
+
+.btn_div {
+}
+
+.buttons {
+  position: relative;
+  margin-top: 50rem;
+}
+
+button {
+  cursor: pointer;
+  color: #f17965;
+  padding: 8px 16px;
+  border: 2px solid #f17965;
+  border-radius: 12px;
+  display: block;
+  background-color: transparent;
+}
+
+.el_blue {
+  position: absolute;
+  top: 18rem;
+  left: 36rem;
+  z-index: 1;
+}
+
+.el_red {
+  position: absolute;
+  top: 17rem;
+  left: 40rem;
+  z-index: 2;
+}
+
+.star {
+  position: absolute;
+  top: 13rem;
+  left: 35rem;
+  z-index: 3;
+}
+
+.megaphone {
+  position: absolute;
+  top: -5rem;
+  left: -4rem;
+}
+
+button:hover {
+  background-color: #f79090;
+  color: white;
+  border-color: #f17965;
+}
