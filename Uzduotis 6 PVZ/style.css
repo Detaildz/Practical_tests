@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9eb2d5;
+  position: relative;
+  width: 100vw;
+}
+
+.background,
+.world,
+.boy,
+.text {
+  position: absolute;
+}
+
+.text {
+  left: 10rem;
+  top: 15rem;
+  z-index: 4;
+}
+.header {
+  font-size: 300px;
+  color: #fff;
+}
+.header2 {
+  font-size: 64px;
+}
+.par {
+  text-align: start;
+  height: 250px;
+}
+.background {
+  width: 50rem;
+  height: 58rem;
+  top: 3rem;
+  left: 65rem;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.boy {
+  width: 35rem;
+  height: 50rem;
+  left: 75rem;
+  top: 15rem;
+  z-index: 3;
+}
+
+.world {
+  width: 150%;
+  height: 150%;
+  top: 50rem;
+  left: 80rem;
+  z-index: 2;
+}
