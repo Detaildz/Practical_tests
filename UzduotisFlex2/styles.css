@@ -86,10 +86,12 @@ p {
   background-color: white;
   padding: 4rem 3rem;
   border-radius: 8px;
+  flex-grow: 2;
 }
 
 .pinkLight img {
-  width: 50%;
+  flex-grow: 2;
+  width: 80%;
   height: auto;
   border-radius: 8px;
 }

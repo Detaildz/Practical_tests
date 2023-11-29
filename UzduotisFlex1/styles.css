@@ -158,6 +158,13 @@ p {
   background-color: transparent;
 }
 
+.readme:active {
+  background: #ff6978;
+  color: white;
+  border-color: transparent;
+  border-radius: 1rem;
+}
+
 footer {
   background-color: #000000;
   width: 100%;
