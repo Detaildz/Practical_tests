@@ -1,0 +1,9 @@
+.gridBox {
+  display: grid;
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.item {
+  background-color: blue;
+}
