@@ -1,0 +1,65 @@
+/*======================
+MAIN PAGES STYLES
+======================*/
+
+.mainPage {
+  // too dark blend, need ligher?
+  background: url(../src/background_main.jpg) #626471;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  height: calc(100vh - 80px);
+
+  // text position
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 49px;
+
+  h1 {
+    color: #fff;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    @media only screen and (max-width: 576px) {
+      font-size: 3.375rem;
+    }
+  }
+  h3 {
+    color: #d5d7d8;
+    font-size: 1.625rem;
+    font-weight: 400;
+    // padding: 1rem;
+  }
+
+  //   @media (min-width: 576px) {
+  //     h1 {
+  //       font-size: 3.375rem;
+  //     }
+  //     h3 {
+  //       font-size: 1.225rem;
+  //     }
+  //   }
+}
+
+button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 14px 50px;
+  background-color: #43c45f;
+  border: transparent;
+  align-self: center;
+  padding: 14px 50px;
+  border-radius: 5px;
+}
+
+// HEADER STYLES
+
+// ... STYLES

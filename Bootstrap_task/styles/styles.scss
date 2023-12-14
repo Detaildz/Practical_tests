@@ -1,0 +1,13 @@
+@use "./mainPage";
+@use "./nav";
+@use "./aboutAds";
+@use "./videoPage";
+
+/*======================
+GENERAL STYLES
+======================*/
+* {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
